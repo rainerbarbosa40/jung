@@ -1,10 +1,10 @@
 i{
-    color: blanchedalmond;
+    color: rgb(248, 232, 0);
 }
 
 body {
-    background-image: url('../img/bg.jpg'); /* Caminho relativo para a imagem */
-    background-size: cover; /* Tamanho da imagem */
+    background-image: url('../img/astronauta.jpg'); /* Caminho relativo para a imagem */
+    background-size: auto; /* Tamanho da imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
     background-position: center; /* Centraliza a imagem */
     height: 100vh; /* Define a altura do body para 100% da altura da viewport */
@@ -29,3 +29,12 @@ iframe {
 h1{
     color: rgb(255, 255, 255);
 }
+
+.bg-image {
+    background-image: url('/assets/img/arvore.jpg'); /* Caminho para a sua imagem */
+    background-size: cover; /* Faz a imagem cobrir o div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color: white; /* Define a cor do texto como branco para garantir visibilidade */
+}
+  
