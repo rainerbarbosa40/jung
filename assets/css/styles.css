@@ -1,0 +1,31 @@
+i{
+    color: blanchedalmond;
+}
+
+body {
+    background-image: url('../img/bg.jpg'); /* Caminho relativo para a imagem */
+    background-size: cover; /* Tamanho da imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh; /* Define a altura do body para 100% da altura da viewport */
+    margin: 0; /* Remove margens padrão */
+}
+
+
+a{
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+iframe {
+            width: 100%; /* Largura 100% para ser responsivo */
+            height: 90vh; /* Altura de 80% da viewport */
+            border: none; /* Remove a borda do iframe */
+        }
+
+.container {
+        text-align: center; /* Centraliza o texto no contêiner */
+        }
+
+h1{
+    color: rgb(255, 255, 255);
+}
