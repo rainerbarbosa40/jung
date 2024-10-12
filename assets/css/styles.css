@@ -30,11 +30,3 @@ h1{
     color: rgb(255, 255, 255);
 }
 
-.bg-image {
-    background-image: url('/assets/img/arvore.jpg'); /* Caminho para a sua imagem */
-    background-size: cover; /* Faz a imagem cobrir o div */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    color: white; /* Define a cor do texto como branco para garantir visibilidade */
-}
-  
